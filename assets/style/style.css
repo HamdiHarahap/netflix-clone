@@ -172,11 +172,15 @@ select {
     font-size: 20px;
 }
 
+#download .box {
+    position: relative;
+}
+
 #download .wrapp {
     justify-content: space-between;
     position: absolute;
     left: 21%;
-    top: 105.8rem;
+    top: 68%;
     padding: 10px 10px;
     display: flex;
     align-items: center;

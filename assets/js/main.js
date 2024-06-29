@@ -24,3 +24,18 @@ questions.forEach(question => {
         closeIcon.classList.toggle('alive');
     });
 });
+
+const languageSelect = document.querySelector('.language-select');
+const footerLanguageSelect = document.querySelector('.footer-language-select');
+
+languageSelect.addEventListener('change', function() {
+    if (languageSelect.value == 'id') {
+        window.location.href = '/index.html';
+    } else {
+        window.location.href = '/assets/pages/en.html'
+    }
+});
+
+footerLanguageSelect.addEventListener('change', function() {
+    alert('Language changed to: ' + footerLanguageSelect.value);
+});
