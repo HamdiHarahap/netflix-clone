@@ -136,6 +136,18 @@ select {
 
 #tv img {
     width: 500px;
+    position: absolute;
+}
+
+#tv video {
+    width: 410px;
+    margin-right: 24px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 #download {
@@ -158,6 +170,14 @@ select {
 
 #download div p {
     font-size: 20px;
+}
+
+.wrapp {
+    display: flex;
+}
+
+.wrapp img {
+    width: 100px;
 }
 
 #everywhere {
@@ -205,8 +225,7 @@ select {
 }
 
 #questions {
-    height: 120vh;
-    padding: 0 10rem 0;
+    padding: 4rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,12 +261,12 @@ select {
 }
 
 .answer {
-    display: none;  
     flex-direction: column;
     gap: 20px;
     padding: 20px 20px;
     background-color: #2d2d2d;
     margin-bottom: 10px;
+    display: none;
 }
 
 .x {
