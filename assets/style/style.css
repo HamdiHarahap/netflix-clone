@@ -176,7 +176,7 @@ select {
     justify-content: space-between;
     position: absolute;
     left: 21%;
-    top: 96.5rem;
+    top: 105.8rem;
     padding: 10px 10px;
     display: flex;
     align-items: center;
@@ -227,7 +227,7 @@ select {
 }
 
 #everywhere video {
-    width: 300px;
+    width: 310px;
     margin-bottom: 120px;
     margin-right: 100px;
 }
