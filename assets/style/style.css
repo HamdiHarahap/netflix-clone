@@ -214,8 +214,22 @@ select {
     align-items: center;
 }
 
+.containers {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 #everywhere img {
     width: 500px;
+    position: absolute;
+}
+
+#everywhere video {
+    width: 300px;
+    margin-bottom: 120px;
+    margin-right: 100px;
 }
 
 #everywhere div h1 {
